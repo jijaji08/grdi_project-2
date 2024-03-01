@@ -41,6 +41,7 @@ main{
 
 #items2 h2{
     font-size: 50px;
+    /* font-size:3vw; */
     font-weight: 600;
 }
 #items3 p{
@@ -83,7 +84,7 @@ main{
 @media (max-width:600px) {
     main{
         grid-template-columns: 100%;
-        grid-template-rows: 10% 15% 15% 25%;
+        grid-template-rows: 10% 15% 10% 25%;
     }
     .items{
         padding:15px 50px;
@@ -95,9 +96,10 @@ main{
         font-size: 4.4vw;
     }
     #items2 h2{
-        font-size: 34px;
+        font-size: 7vw;
     }
     #items3 p{
+        font-size: 3vw;
         width:100%; 
     }
     #items5{
